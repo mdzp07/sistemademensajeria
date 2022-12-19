@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.flex-content {
+    display:flex;
+
+}
+
+.contact-section{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    border-right: solid;
+    border-right-color: #E8EBE4;
+    border-width: 1,5px;
+}
+
+
+.message-section {
+    background-color:azure;
+    display: flex;
+    flex-basis: 75%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+.center-message img {
+    width: 45%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 0px;
+    justify-content: center;
+    line-height: 5px;
+    border-top: solid;
+    border-top-color: #E8EBE4;
+    border-width: 1,5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    justify-content: space-around;
+    line-height: 5px;
+    border-bottom: solid;
+    border-bottom-color:#E8EBE4;
+    border-width: 1,5px;
+}
+
+.user img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+
+
+.contact img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.boton {
+    background-color: #A491D2;
+    color: #ffffff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 150px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+}
+
+.format-boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    color: gray;
+    gap: 12px;
+}
+
+.section-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
